@@ -74,6 +74,13 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
+      {__DEV__ && (
+        <ThemedView style={styles.stepContainer}>
+          <Link href="/drill1">
+            <ThemedText type="subtitle">Drill 1: Fast Refresh</ThemedText>
+          </Link>
+        </ThemedView>
+      )}
     </ParallaxScrollView>
   );
 }
