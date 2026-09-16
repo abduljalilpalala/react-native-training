@@ -10,7 +10,7 @@ export function Counter() {
     <View style={styles.container}>
       <Text style={styles.count}>{count}</Text>
       <Button
-        title="+1!!!"
+        title="+1"
         onPress={() => {
           console.log("tapped, current count:", count);
           setCount((c) => c + 1);
