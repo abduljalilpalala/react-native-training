@@ -1,7 +1,7 @@
 # Day 1 — Three ways to break the refresh — Checklist
 
 ## Setup
-- [ ] Run `npx expo start`, open the app in Expo Go, tap **"Day 1: Fast Refresh"** on the home tab
+- [ ] Run `npx expo start`, open the app in Expo Go, tap **"Day 1: The Native Rendering Model"** on the home tab
 - [ ] Tap `+1` a few times to confirm the counter increments and renders
 
 ## Variant A — component-only export

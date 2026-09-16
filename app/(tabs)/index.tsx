@@ -77,7 +77,7 @@ export default function HomeScreen() {
       {__DEV__ && (
         <ThemedView style={styles.stepContainer}>
           <Link href="/day1">
-            <ThemedText type="subtitle">Day 1: Fast Refresh</ThemedText>
+            <ThemedText type="subtitle">Day 1: The Native Rendering Model</ThemedText>
           </Link>
         </ThemedView>
       )}
