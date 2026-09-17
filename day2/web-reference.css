@@ -1,0 +1,16 @@
+/* Web reference for Drill 2, Part 1 — port this to React Native in CardRow.tsx.
+   The ported version must render identically on native. */
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  gap: 12px;
+  width: 100%;
+}
+
+.card {
+  width: 160px;
+  padding: 12px;
+  background: #eee;
+}
