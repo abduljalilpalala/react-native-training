@@ -21,7 +21,7 @@ export const roadmap: RoadmapWeek[] = [
     subtitle: 'Unlearn browser assumptions; native rendering, layout, input, touch and list systems.',
     days: [
       { day: 1, title: 'The Native Rendering Model', href: '/day1' },
-      { day: 2, title: 'Layout and Flexbox on Native' },
+      { day: 2, title: 'Layout and Flexbox on Native', href: '/day2' },
       { day: 3, title: 'Text, Input and Forms' },
       { day: 4, title: 'Touch and Press Handling' },
       { day: 5, title: 'Lists and Virtualization' },
